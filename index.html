@@ -1,0 +1,8 @@
+<!doctype html><meta charset="utf-8"><title>Isai has moved</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>
+  // /isai-web/songs/liked?x → https://isai-app.github.io/songs/liked?x
+  var rest = location.pathname.replace(/^\/isai-web\/?/, '');
+  location.replace('https://isai-app.github.io/' + rest + location.search + location.hash);
+</script>
+<p style="font:16px system-ui;padding:24px">Isai has moved to <a href="https://isai-app.github.io/">https://isai-app.github.io</a>.</p>
